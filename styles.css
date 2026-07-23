@@ -9,6 +9,7 @@
   --color-text: #111827;
   --color-muted: #64748b;
   --font-family: system-ui, sans-serif;
+  --font-family-heading: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   --radius: 24px;
 }
 
@@ -75,6 +76,9 @@ h1 {
   margin: 0 0 24px;
   font-size: clamp(40px, 8vw, 80px);
   line-height: 0.95;
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .button {
