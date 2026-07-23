@@ -27,7 +27,7 @@ body {
   min-height: 75vh;
   padding: 32px;
   color: white;
-  background: linear-gradient(135deg, var(--color-dark), var(--color-dark-light));
+  background: linear-gradient(135deg, pink, red);
 }
 
 nav {
